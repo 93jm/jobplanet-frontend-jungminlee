@@ -9,9 +9,9 @@ npm run dev
 ## 문서
 
 - 과제 안내
-  https://mire-chicory-4ed.notion.site/380bdf552a7c40c68ad2f2bdba7568c5
+- https://mire-chicory-4ed.notion.site/380bdf552a7c40c68ad2f2bdba7568c5
 - 피그마
-  https://www.figma.com/file/BfLoPdJRCevKS9qLx5KTyi/Web_TestProject?type=design&node-id=0-1&mode=design&t=7wvAjjexIAZRmYBJ-0
+- https://www.figma.com/file/BfLoPdJRCevKS9qLx5KTyi/Web_TestProject?type=design&node-id=0-1&mode=design&t=7wvAjjexIAZRmYBJ-0
 
 ## 필수 요구사항
 
@@ -28,3 +28,7 @@ npm run dev
 - Typescript
 - tailwindcss
 - deploy with Vercel
+
+## 스타일 작성 컨벤션
+
+- layout > box > background > font
