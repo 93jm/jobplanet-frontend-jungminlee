@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 프론트엔드 포지션 지원자 이정민 결과물 입니다.
 
-## Getting Started
+## 실행 방법
 
-First, run the development server:
-
-```bash
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 문서
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 과제 안내
+  https://mire-chicory-4ed.notion.site/380bdf552a7c40c68ad2f2bdba7568c5
+- 피그마
+  https://www.figma.com/file/BfLoPdJRCevKS9qLx5KTyi/Web_TestProject?type=design&node-id=0-1&mode=design&t=7wvAjjexIAZRmYBJ-0
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 필수 요구사항
 
-## Learn More
+- [] 시멘틱 마크업 필수
+- [] SEO 최적화 필수요소 작성(내용 자율).
+- [] SSR 필수 브라우저 [자바스크립트 사용 중지] 후 첫페이지 확인
+- [] 리스트 페이징 : Infinite Scroll(무한 스크롤) (동영상 참조)
+- [] 쿠키 저장 (첫 랜더 시점으로 5일 유지)
 
-To learn more about Next.js, take a look at the following resources:
+## 사용 기술
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- NextJS 14
+- React 18
+- Typescript
+- tailwindcss
+- deploy with Vercel
