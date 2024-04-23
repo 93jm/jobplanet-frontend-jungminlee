@@ -48,7 +48,7 @@ export default function RecruitCard({ recruit }: IProps) {
       </ImgWrapper>
       <ContentWrapper>
         <RecruitTitle title={title} skills={skills} />
-        <Divider mt="10" mb="12" />
+        <Divider className="mt-[10px] mb-[12px]" />
         <RecruitCompany company={company} appeal={appeal} />
         <RecruitReward reward_text={reward_text} />
       </ContentWrapper>

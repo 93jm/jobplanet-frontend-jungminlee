@@ -13,7 +13,7 @@ export default function RecruitReward({ reward_text }: IProps) {
 
   return (
     <>
-      <Divider mt="12" mb="10" />
+      <Divider className="mt-[12px] mb-[10px]" />
       <div className="flex items-center gap-[3px]">
         <Image
           src="/asset/icon-won.svg"
