@@ -1,7 +1,7 @@
 import { getRecruitmentList } from "@/api/fetch";
-import RecruitCard from "@/components/RecruitCard";
-import ContentWrapper from "@/components/layout/ContentWrapper";
-import { IRecruitItem, RecruitmentResponse } from "@/types/recruit";
+import RecruitCardList from "@/components/RecruitCardList";
+import LayoutWrapper from "@/components/layout/LayoutWrapper";
+import { RecruitmentResponse } from "@/types/recruit";
 
 export default async function Home() {
   const {
@@ -9,10 +9,8 @@ export default async function Home() {
   }: RecruitmentResponse = await getRecruitmentList("/jptest?page=1");
 
   return (
-    <ContentWrapper>
-      {recruits.map((recruit: IRecruitItem) => (
-        <RecruitCard key={recruit.id} recruit={recruit} />
-      ))}
-    </ContentWrapper>
+    <LayoutWrapper>
+      <RecruitCardList recruits={recruits} />
+    </LayoutWrapper>
   );
 }
