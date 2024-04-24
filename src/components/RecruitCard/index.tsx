@@ -5,6 +5,7 @@ import RecruitTitle from "@/components/RecruitCard/RecruitTitle";
 import Divider from "@/components/layout/Divider";
 import RecruitCompany from "@/components/RecruitCard/RecruitCompany";
 import RecruitReward from "@/components/RecruitCard/RecruitReward";
+import RecruilThumbnail from "./RecruitThumbnail";
 
 interface IProps {
   recruit: IRecruitItem;
@@ -24,15 +25,7 @@ export default function RecruitCard({ recruit }: IProps) {
   return (
     <RecruitWrapper>
       <ImgWrapper>
-        <div className="relative h-[180px] rounded-tl-[12px] rounded-tr-[12px] overflow-hidden">
-          <Image
-            src={image}
-            fill={true}
-            sizes="100% 180px"
-            alt="채용 대표 이미지"
-            priority={true}
-          />
-        </div>
+        <RecruilThumbnail image={image} />
         <div className="absolute top-[16px] right-[16px] cursor-pointer">
           <Image
             src={
